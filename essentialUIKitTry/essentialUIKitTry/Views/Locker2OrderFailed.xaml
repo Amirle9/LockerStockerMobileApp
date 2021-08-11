@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="essentialUIKitTry.Views.Locker2OrderFailed"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:button="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:core="clr-namespace:Syncfusion.XForms.Core;assembly=Syncfusion.Core.XForms"
+    xmlns:svg="clr-namespace:essentialUIKitTry.Controls"
+    xmlns:viewModel="clr-namespace:essentialUIKitTry.ViewModels"
+    BackgroundColor="{StaticResource Gray-White}"
+    NavigationPage.HasNavigationBar="False">
+
+
+    <!--  Binding context for login page  -->
+    <ContentPage.BindingContext>
+        <viewModel:Locker2OrderFailedViewModel />
+    </ContentPage.BindingContext>
+
+
+    <ContentPage.Content>
+
+        <Grid RowDefinitions="*, Auto">
+
+            <button:SfButton
+                Margin="8"
+                Command="{Binding BackButtonCommand}"
+                FontSize="20"
+                HorizontalOptions="End"
+                Style="{StaticResource IconButtonStyle}"
+                Text="{StaticResource Close}"
+                VerticalOptions="Start" />
+            <StackLayout
+                x:Name="pageStack"
+                BackgroundColor="Transparent"
+                Spacing="0"
+                VerticalOptions="Center">
+
+                <!--  Display the svg illustration image  -->
+                <svg:SVGImage
+                    x:Name="ErrorImage"
+                    HeightRequest="{core:OnPlatformOrientationDoubleValue Default=300,
+                                                                          AndroidPhonePortrait=200,
+                                                                          AndroidPhoneLandscape=140,
+                                                                          iOSPhonePortrait=200,
+                                                                          iOSPhoneLandscape=140}"
+                    Source="{Binding ImagePath}"
+                    VerticalOptions="Center"
+                    WidthRequest="{x:OnIdiom Phone=200,
+                                             Desktop=300,
+                                             Tablet=300}" />
+
+                <!--  Label to display header  -->
+                <Label
+                    x:Name="lbl1"
+                    Margin="0,32,0,8"
+                    FontSize="25"
+                    Style="{StaticResource TitleLabelStyle}"
+                    Text="Not Available"
+                    TextColor="#333942"
+                    VerticalTextAlignment="Center" />
+
+                <!--  Label to display content  -->
+                <Label
+                    x:Name="lbl2"
+                    Margin="8,0,8,0"
+                    FontSize="16"
+                    LineHeight="{OnPlatform Android=1.25,
+                                            Default=-1}"
+                    Style="{StaticResource DescriptionLabelStyle}"
+                    TextColor="#333942"
+                    VerticalTextAlignment="Center" />
+            </StackLayout>
+
+            <!--  Try again button  -->
+            <button:SfButton
+                Grid.Row="1"
+                Margin="0,10,0,24"
+                Command="{Binding GoBackCommand}"
+                Style="{StaticResource GradientButtonStyle}"
+                Text="GO BACK"
+                Clicked="Back_To_Menu"
+                VerticalOptions="End"
+                WidthRequest="245" />
+
+        </Grid>
+
+    </ContentPage.Content>
+
+</ContentPage>

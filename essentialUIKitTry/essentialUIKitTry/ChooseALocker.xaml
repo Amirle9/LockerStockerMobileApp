@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="essentialUIKitTry.ChooseALocker"
+             xmlns:viewModel="clr-namespace:essentialUIKitTry.ViewModels" 
+             xmlns:button="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms">
+
+
+    <!--  Binding context for login page  
+    <ContentPage.BindingContext>
+        <viewModel:ChooseALockerViewModel />
+    </ContentPage.BindingContext> -->
+    
+    
+    <StackLayout x:Name="ChooseALockerMainStack" >
+        <Label x:Name="name" HorizontalOptions="Center" FontSize="30" FontFamily="Arial" />
+        <Label x:Name="ModeInfoLbl" FontSize="18" FontFamily="Arial" HorizontalOptions="Center"  />
+        <Label x:Name="balance" FontSize="20" FontFamily="Arial"/>
+        <Label x:Name="mid_title" FontSize="25" FontFamily="Arial"  />
+
+
+
+       
+        <StackLayout x:Name="ButtonsRow1" Orientation="Horizontal" HorizontalOptions="Center"/>
+        <StackLayout x:Name="ButtonsRow2" Orientation="Horizontal" HorizontalOptions="Center"/>
+        <StackLayout x:Name="ButtonsRow3" Orientation="Horizontal" HorizontalOptions="Center"/>
+        <StackLayout x:Name="ButtonsRow4" Orientation="Horizontal" HorizontalOptions="Center"/>
+        <Button
+                    x:Name="SetCostsButton"
+                    Text ="set costs"
+                    BackgroundColor = "Black"
+                    TextColor = "White"
+                    HorizontalOptions ="Center"        
+                    FontSize = "15"
+                    WidthRequest = "140"
+                    HeightRequest =  "45" 
+                    Clicked = "NavigateToCostSelectionPage"  />
+        <Button
+                    x:Name="RechargeButton"
+                    Text ="Recharge balance"
+                    BackgroundColor = "DarkSlateBlue"
+                    TextColor = "White"
+                    HorizontalOptions ="Center"        
+                    FontSize = "12"
+                    WidthRequest = "200"
+                    HeightRequest =  "40" 
+                    Clicked = "RechargeBalanceButtonClicked"  />
+
+        <!--  Sign Out Button -->
+
+            <button:SfButton
+                            Grid.Row="1"
+                            Margin="0,15"
+                            WidthRequest ="160"
+                            Style="{StaticResource GradientButtonStyle}"
+                            Text="SIGN OUT"
+                            HeightRequest ="45"
+                            BorderWidth="2"                           
+                            Clicked="OnSignOutClicked"/>
+            <Label Text=" "/>
+        
+
+    </StackLayout>
+</ContentPage>

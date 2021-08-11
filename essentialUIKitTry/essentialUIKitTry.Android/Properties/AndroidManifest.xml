@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.essentialuikittry" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="22" android:targetSdkVersion="30" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<application android:label="essentialUIKitTry.Android" android:theme="@style/MainTheme" android:usesCleartextTraffic="true" android:requestLegacyExternalStorage="true">
+		<activity android:name="microsoft.identity.client.BrowserTabActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<!-- example -->
+				<!-- <data android:scheme="msalaaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee" android:host="auth" /> -->
+				<data android:scheme="msal29963b61-6eb1-4b62-802d-a0815639140f" android:host="auth" />
+			</intent-filter>
+		</activity>"
+	</application>
+</manifest>

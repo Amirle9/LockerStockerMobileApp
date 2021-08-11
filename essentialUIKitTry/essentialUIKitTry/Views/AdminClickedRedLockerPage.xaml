@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="essentialUIKitTry.Views.AdminClickedRedLockerPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:controls="clr-namespace:essentialUIKitTry.Controls"
+    xmlns:viewModel="clr-namespace:essentialUIKitTry.ViewModels" xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    x:Name="profilePage"
+    Title="Profile Page"
+    BackgroundColor="{DynamicResource Gray-Bg}"
+    NavigationPage.HasNavigationBar="False">
+
+    <!--  Binding context for Profile Page  -->
+    <ContentPage.BindingContext>
+        <viewModel:AdminClickedRedLockerPageViewModel />
+    </ContentPage.BindingContext>
+
+
+    <ContentPage.ControlTemplate>
+        <ControlTemplate>
+            <StackLayout Spacing="0">
+                <!--  Title View  -->
+                <controls:TitleView Title="Profile">
+                    <controls:TitleView.LeadingView>
+                        <buttons:SfButton
+                            x:Name="backButton"
+                            Command="{Binding BindingContext.BackButtonCommand, Source={x:Reference profilePage}}"
+                            CommandParameter="{x:Reference backButton}"
+                            Style="{StaticResource IconButtonStyle}"
+                            Text="{StaticResource Back}" />
+                    </controls:TitleView.LeadingView>
+                </controls:TitleView>
+                <ContentPresenter />
+            </StackLayout>
+        </ControlTemplate>
+    </ContentPage.ControlTemplate>
+
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout Spacing="0">
+
+
+                <!--  Profile image with edit label  -->
+                <buttons:SfButton
+                    Margin="0,10,0,0"
+                    BackgroundColor="Transparent"
+                    BorderColor="{DynamicResource Gray-Bg}"
+                    BorderWidth="2"
+                    Command="{Binding EditCommand}"
+                    CornerRadius="60"
+                    HorizontalOptions="Center"
+                    WidthRequest="120">
+                    <buttons:SfButton.Content>
+                        <Grid HeightRequest="120" WidthRequest="120">
+
+                            <Image Source="lockerIcon.png"
+                             Aspect="AspectFill"
+                             BackgroundColor="White" />
+
+
+                        </Grid>
+                    </buttons:SfButton.Content>
+                </buttons:SfButton>
+
+                <!--  Profile Name  -->
+                <Label
+                    x:Name="LockerIdLbl"
+                    Margin="0,10,0,10"
+                    FontFamily="Montserrat-Bold"
+                    Style="{StaticResource TitleLabelStyle}"
+                    VerticalOptions="Center" />
+
+                <!--  Grid for available label and navigation icon  -->
+                <Grid
+                    x:Name="AvailableGrid"
+                    Padding="16"
+                    ColumnDefinitions="Auto, *, Auto"
+                    ColumnSpacing="16">
+
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding AvailableCommand}" CommandParameter="{x:Reference AvailableGrid}" />
+                    </Grid.GestureRecognizers>
+
+                    <Label
+                        Grid.Column="0"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource New}"
+                        TextColor="{StaticResource Green}" />
+
+                    <Label
+                        Grid.Column="1"
+                        FontFamily="Montserrat-Medium"
+                        HorizontalOptions="Start"
+                        Style="{StaticResource TitleLabelStyle}"
+                        x:Name = "mailOfUser"
+                        VerticalOptions="Center" />
+
+
+
+
+
+
+                </Grid>
+
+                <BoxView Style="{StaticResource HorizontalSeparatorStyle}" />
+
+                <!--  Grid for mail id label and icon  -->
+
+
+                <BoxView Style="{StaticResource HorizontalSeparatorStyle}" />
+
+                <!--  Grid for mobile number label and icon  -->
+                <Grid
+                    Padding="16"
+                    ColumnDefinitions="Auto, *"
+                    ColumnSpacing="16">
+
+                    <Label
+                        Grid.Column="0"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Notification}"  />
+
+                    <Label
+                        x:Name="StatusLbl"
+                        Grid.Column="1"
+                        FontFamily="Montserrat-Medium"
+                        HorizontalOptions="Start"
+                        Style="{StaticResource TitleLabelStyle}"
+                        VerticalOptions="Center" />
+
+                </Grid>
+
+                <BoxView Style="{StaticResource HorizontalSeparatorStyle}" />
+
+
+
+
+
+                <BoxView Style="{StaticResource HorizontalSeparatorStyle}" />
+
+                <!--  Grid for help label and icon  -->
+                <Grid
+                    Padding="16"
+                    ColumnDefinitions="Auto, *"
+                    ColumnSpacing="16">
+
+                    <Label
+                        Grid.Column="0"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Help}" />
+
+                    <Label
+                        
+                        x:Name="TimeRemainingLbl"
+                        Grid.Column="1"
+                        FontFamily="Montserrat-Medium"
+                        HorizontalOptions="Start"
+                        Style="{StaticResource TitleLabelStyle}"
+                        VerticalOptions="Center" />
+
+                </Grid>
+
+                <BoxView Style="{StaticResource HorizontalSeparatorStyle}" />
+
+                <Label Text=" "/>
+
+                <buttons:SfButton
+                        Margin="0,15"
+                        Style="{StaticResource GradientButtonStyle}"
+                        x:Name="LockUnlockBtn"
+                        VerticalOptions="Start"
+                        WidthRequest="245" />
+
+                <Label Text=" "/>
+
+
+                <buttons:SfButton
+                        Margin="0,15"
+                        Style="{StaticResource GradientButtonStyle}"
+                        x:Name="ReleaseBtn"
+                        VerticalOptions="Start"
+                        WidthRequest="245" />
+
+            </StackLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

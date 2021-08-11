@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "293449678986",
+    "project_id": "lockerstocker-ed8d6",
+    "storage_bucket": "lockerstocker-ed8d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293449678986:android:3e0b8035e76fd3405bad73",
+        "android_client_info": {
+          "package_name": "com.companyname.essentialuikittry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293449678986-jqv6m8iule7i30adf804v5t6kp5n0ces.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.companyname.essentialuikittry",
+            "certificate_hash": "70812e98b2d2bdc4e9a33bda3f5138fe0c1b4cf9"
+          }
+        },
+        {
+          "client_id": "293449678986-vj3cjm2j7c0bor0ihusab47a9nt43mvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWdCj8-w5xg86bzHzr5_RhBJJFeLL9DdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293449678986-vj3cjm2j7c0bor0ihusab47a9nt43mvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

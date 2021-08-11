@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="essentialUIKitTry.SetCostsChooseALockerPage"
+             xmlns:viewModel="clr-namespace:essentialUIKitTry.ViewModels">
+
+
+    <!--  Binding context for login page  
+    <ContentPage.BindingContext>
+        <viewModel:ChooseALockerViewModel />
+    </ContentPage.BindingContext> -->
+    
+    <StackLayout x:Name="ChooseALockerMainStack" >
+        <Label Text="Lockers' Costs" HorizontalOptions="Center" FontSize="40" FontFamily="Arial" />
+        <Label Text=" "/>
+        <Label Text="Choose a Locker to Set Price to:" FontSize="20" FontFamily="Arial"  />
+        <Label Text=" "/>
+
+        <StackLayout x:Name="ButtonsRow1" Orientation="Horizontal" HorizontalOptions="Center"/>
+        <StackLayout x:Name="ButtonsRow2" Orientation="Horizontal" HorizontalOptions="Center"/>
+        <StackLayout x:Name="ButtonsRow3" Orientation="Horizontal" HorizontalOptions="Center"/>
+        <StackLayout x:Name="ButtonsRow4" Orientation="Horizontal" HorizontalOptions="Center"/>
+
+        <Label Text=" "/>
+        <Label x:Name="ModeInfoLbl" FontSize="18" FontFamily="Arial" HorizontalOptions="Center"  />
+
+
+
+
+    </StackLayout>
+</ContentPage>

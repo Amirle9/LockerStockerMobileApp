@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="essentialUIKitTry.Views.InsideALockerImage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:button="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:core="clr-namespace:Syncfusion.XForms.Core;assembly=Syncfusion.Core.XForms"
+    xmlns:svg="clr-namespace:essentialUIKitTry.Controls"
+    BackgroundColor="{StaticResource Gray-White}"
+    NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Content>
+
+        <Grid BackgroundColor="{x:StaticResource Gray-White}" RowDefinitions="*, Auto">
+
+            <button:SfButton
+                Margin="8"
+                Command="{Binding BackButtonCommand}"
+                FontSize="20"
+                HorizontalOptions="End"
+                Style="{StaticResource IconButtonStyle}"
+                Text="{StaticResource Close}"
+                VerticalOptions="Start" />
+
+            <StackLayout
+                BackgroundColor="Transparent"
+                Spacing="0"
+                VerticalOptions="Center">
+
+                <!--  Display the svg illustration image  -->
+                <Image x:Name="lockerImage" 
+                             Aspect="AspectFill"
+                             BackgroundColor="White"/>
+
+
+
+                <!--  Label to display header 
+                <Label
+                    Margin="0,32,0,8"
+                    FontSize="20"
+                    Style="{StaticResource TitleLabelStyle}"
+                    Text="Picture of The Locker"
+                    TextColor="#333942"
+                    VerticalTextAlignment="Center" /> -->
+
+
+            </StackLayout>
+
+            <!--  Try again button  -->
+            <button:SfButton
+                Grid.Row="1"
+                Margin="0,10,0,24"
+                Command="{Binding TryAgainCommand}"
+                Style="{StaticResource GradientButtonStyle}"
+                Text="GO BACK"
+                Clicked="Back_To_Locker_Profile"
+                VerticalOptions="End"
+                WidthRequest="245" />
+
+        </Grid>
+
+    </ContentPage.Content>
+
+</ContentPage>
