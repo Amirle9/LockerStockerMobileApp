@@ -3,10 +3,8 @@
     "",
     "\\essentialUIKitTry",
     "\\essentialUIKitTry\\essentialUIKitTry",
-    "\\essentialUIKitTry\\essentialUIKitTry.Android",
-    "\\essentialUIKitTry\\essentialUIKitTry.Android\\Properties",
     "\\essentialUIKitTry\\essentialUIKitTry\\Views"
   ],
-  "SelectedNode": "\\essentialUIKitTry\\essentialUIKitTry\\Views\\SetCostsMainPage.xaml.cs",
+  "SelectedNode": "\\essentialUIKitTry\\essentialUIKitTry\\ChooseALocker.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

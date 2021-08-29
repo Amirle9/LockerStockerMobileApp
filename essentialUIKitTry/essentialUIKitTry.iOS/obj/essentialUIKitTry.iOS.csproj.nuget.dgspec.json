@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rawan\\Documents\\sadna\\10.8.2021\\essentialUIKitTry\\essentialUIKitTry.iOS\\essentialUIKitTry.iOS.csproj": {}
+    "C:\\Users\\amirl\\Source\\Repos\\IOT_sadna1530\\essentialUIKitTry\\essentialUIKitTry.iOS\\essentialUIKitTry.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rawan\\Documents\\sadna\\10.8.2021\\essentialUIKitTry\\essentialUIKitTry.iOS\\essentialUIKitTry.iOS.csproj": {
+    "C:\\Users\\amirl\\Source\\Repos\\IOT_sadna1530\\essentialUIKitTry\\essentialUIKitTry.iOS\\essentialUIKitTry.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rawan\\Documents\\sadna\\10.8.2021\\essentialUIKitTry\\essentialUIKitTry.iOS\\essentialUIKitTry.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\amirl\\Source\\Repos\\IOT_sadna1530\\essentialUIKitTry\\essentialUIKitTry.iOS\\essentialUIKitTry.iOS.csproj",
         "projectName": "essentialUIKitTry.iOS",
-        "projectPath": "C:\\Users\\rawan\\Documents\\sadna\\10.8.2021\\essentialUIKitTry\\essentialUIKitTry.iOS\\essentialUIKitTry.iOS.csproj",
-        "packagesPath": "C:\\Users\\rawan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rawan\\Documents\\sadna\\10.8.2021\\essentialUIKitTry\\essentialUIKitTry.iOS\\obj\\",
+        "projectPath": "C:\\Users\\amirl\\Source\\Repos\\IOT_sadna1530\\essentialUIKitTry\\essentialUIKitTry.iOS\\essentialUIKitTry.iOS.csproj",
+        "packagesPath": "C:\\Users\\amirl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amirl\\Source\\Repos\\IOT_sadna1530\\essentialUIKitTry\\essentialUIKitTry.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\rawan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amirl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -34,8 +34,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\rawan\\Documents\\sadna\\10.8.2021\\essentialUIKitTry\\essentialUIKitTry\\essentialUIKitTry.csproj": {
-                "projectPath": "C:\\Users\\rawan\\Documents\\sadna\\10.8.2021\\essentialUIKitTry\\essentialUIKitTry\\essentialUIKitTry.csproj"
+              "C:\\Users\\amirl\\Source\\Repos\\IOT_sadna1530\\essentialUIKitTry\\essentialUIKitTry\\essentialUIKitTry.csproj": {
+                "projectPath": "C:\\Users\\amirl\\Source\\Repos\\IOT_sadna1530\\essentialUIKitTry\\essentialUIKitTry\\essentialUIKitTry.csproj"
               }
             }
           }
@@ -115,21 +115,21 @@
         }
       }
     },
-    "C:\\Users\\rawan\\Documents\\sadna\\10.8.2021\\essentialUIKitTry\\essentialUIKitTry\\essentialUIKitTry.csproj": {
+    "C:\\Users\\amirl\\Source\\Repos\\IOT_sadna1530\\essentialUIKitTry\\essentialUIKitTry\\essentialUIKitTry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rawan\\Documents\\sadna\\10.8.2021\\essentialUIKitTry\\essentialUIKitTry\\essentialUIKitTry.csproj",
+        "projectUniqueName": "C:\\Users\\amirl\\Source\\Repos\\IOT_sadna1530\\essentialUIKitTry\\essentialUIKitTry\\essentialUIKitTry.csproj",
         "projectName": "essentialUIKitTry",
-        "projectPath": "C:\\Users\\rawan\\Documents\\sadna\\10.8.2021\\essentialUIKitTry\\essentialUIKitTry\\essentialUIKitTry.csproj",
-        "packagesPath": "C:\\Users\\rawan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rawan\\Documents\\sadna\\10.8.2021\\essentialUIKitTry\\essentialUIKitTry\\obj\\",
+        "projectPath": "C:\\Users\\amirl\\Source\\Repos\\IOT_sadna1530\\essentialUIKitTry\\essentialUIKitTry\\essentialUIKitTry.csproj",
+        "packagesPath": "C:\\Users\\amirl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amirl\\Source\\Repos\\IOT_sadna1530\\essentialUIKitTry\\essentialUIKitTry\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\rawan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amirl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"

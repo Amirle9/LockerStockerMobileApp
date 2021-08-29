@@ -107,8 +107,8 @@ namespace essentialUIKitTry
             var token = authenticationResult.IdToken;
             if (token != null)
             {
-                var handler = new JwtSecurityTokenHandler();
-                var data = handler.ReadJwtToken(authenticationResult.IdToken);
+                var handler = new JwtSecurityTokenHandler(); //designed for creating and validating Json Web Tokens
+                var data = handler.ReadJwtToken(authenticationResult.IdToken); //Converts a string into instance of JwtSecurityToken
                 var claims = data.Claims.ToList();
                
                 App.m_adminMode = data.Claims.FirstOrDefault(x => x.Type.Equals("surname")).Value == "ADMIN";
