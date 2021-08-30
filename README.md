@@ -13,7 +13,7 @@ Smart lockers with a camera inside each one of them, which provide the customers
 * Open Visual Studio
 * Click on "Clone a repository"
 * Copy & paste the link https://github.com/Amirle9/LockerStockerMobileApp.git and click on "Clone"
-* Run the app through an Android emulator or an Android phone
+* Run the app on an Android emulator or an Android phone
 
 ## Project Team
 
