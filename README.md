@@ -1,6 +1,10 @@
 # Locker Stocker Mobile App
 
-![Locker Stocker](https://user-images.githubusercontent.com/72312417/131371494-592f4142-7763-49b6-adae-5372d2d3a5de.JPG)
+<img src="https://user-images.githubusercontent.com/72312417/131371494-592f4142-7763-49b6-adae-5372d2d3a5de.JPG" width="250" />
+
+
+
+
 
 
 ## Description
