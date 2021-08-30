@@ -1,10 +1,5 @@
 # Locker Stocker Mobile App
 
-<img src="https://user-images.githubusercontent.com/72312417/131371494-592f4142-7763-49b6-adae-5372d2d3a5de.JPG" width="200" />
-
-
-
-
 
 
 ## Description
@@ -13,6 +8,13 @@ Smart lockers with a camera inside each one of them, which provide the customers
 
 #### This Android app was built by using C# and Azure services, in Visual Studio with Xamarin.Forms.
 
+## How To Run This Project
+
+* Open Visual Studio 2019
+* Click on "Clone a repository"
+* Paste the link and click on "Clone"
+* Run the app through an Android emulator or an Android phone
+
 ## Project Team
 
 This project was made by Tomer Mizrachi, Rawan Dacca and Amir Leitner for Tel Aviv University.
@@ -20,6 +22,7 @@ This project was made by Tomer Mizrachi, Rawan Dacca and Amir Leitner for Tel Av
 ## Visit Our Site
 https://1tommiz2.wixsite.com/lockerstocker
 
+<img src="https://user-images.githubusercontent.com/72312417/131371494-592f4142-7763-49b6-adae-5372d2d3a5de.JPG" width="200" />
 
 # why?
 ##### beacuse
