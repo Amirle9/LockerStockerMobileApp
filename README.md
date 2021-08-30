@@ -24,5 +24,3 @@ https://1tommiz2.wixsite.com/lockerstocker
 
 <img src="https://user-images.githubusercontent.com/72312417/131371494-592f4142-7763-49b6-adae-5372d2d3a5de.JPG" width="200" />
 
-# why?
-##### beacuse
