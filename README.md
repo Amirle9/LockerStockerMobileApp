@@ -13,5 +13,4 @@ https://1tommiz2.wixsite.com/lockerstocker
 
 
 # why?
-![alt text](C:\Users\amirl\OneDrive\שולחן העבודה\אינטרנט של דברים\LockerStockerg.insidealocker.jpeg)
 ##### beacuse
