@@ -1,4 +1,8 @@
 # Locker Stocker Mobile App
+
+![Locker Stocker](https://user-images.githubusercontent.com/72312417/131371494-592f4142-7763-49b6-adae-5372d2d3a5de.JPG)
+
+
 ## Description
 
 Smart lockers with a camera inside each one of them, which provide the customers a secure way to store their valuable things while learning or exercising. Furthermore, with this mobile application the customers can open the lock and get a notification every time their locker is opened. This will make the users feel less worried and enable them to concentrate on their studying or workout.
